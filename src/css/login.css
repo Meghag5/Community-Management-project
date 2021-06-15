@@ -1,0 +1,72 @@
+.login-nav {
+  background-color: #4b53bc;
+}
+
+.m-banner {
+  color: #fff;
+  padding-top: 11px;
+  padding-bottom: 6px;
+  display: block;
+  clear: both;
+  text-align: center;
+  float: none;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.heading {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 3px;
+  margin-top: 100px;
+  font-weight: 600;
+  padding: 38px 0 2px;
+  margin-top: 0;
+  text-align: left;
+  font-size: 26px;
+  line-height: 40px;
+}
+
+.welcome {
+  color: #4b53bc;
+  padding-bottom: 10px;
+  line-height: 50px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.para {
+  letter-spacing: 1px;
+}
+
+.login {
+  background-color: #4b53bc;
+  color: #fff;
+}
+
+.link {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.btn-1 {
+  min-width: 200px;
+  border: #fff 2px solid;
+  color: #fff;
+  background-color: #4b53bc;
+  margin-right: 10px;
+  padding: 2px 5px;
+}
+
+.btn-2 {
+  min-width: 200px;
+  border: #4b53bc 2px solid;
+  background-color: #fff;
+  color: #4b53bc;
+  padding: 2px 5px;
+}
+
+.download {
+  color: #4b53bc;
+  background-color: #fff;
+}
