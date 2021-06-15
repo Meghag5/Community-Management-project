@@ -1,0 +1,28 @@
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 70px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  align-items: center;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  align-items: center;
+  font-size: 8px;
+}
+
+.icons {
+  font-size: 30px;
+  color: #464775;
+}
+
+.bottom {
+  margin-top: 120px;
+}
