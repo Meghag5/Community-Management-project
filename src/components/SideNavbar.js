@@ -5,11 +5,12 @@ import {SiMicrosoftteams} from "react-icons/si"
 import {ImBooks} from "react-icons/im"
 import {IoMdApps} from "react-icons/io"
 import {BiHelpCircle, BiDotsHorizontalRounded} from "react-icons/bi"
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const SideNav = () => {
   return (
     <>
-        <div className="sidebar">
+        <div className="sidebar col-4">
           <a className="active" href="#home">
           <HiOutlineBell className='icons'/>Activity
           </a>

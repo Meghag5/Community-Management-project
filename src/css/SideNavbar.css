@@ -1,15 +1,23 @@
 .sidebar {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   width: 70px;
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
   overflow: auto;
-  align-items: center;
 }
 
 .sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  align-items: center;
+  font-size: 8px;
+}
+
+.sidebar link {
   display: block;
   color: black;
   padding: 16px;

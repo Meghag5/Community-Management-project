@@ -1,0 +1,38 @@
+.assignment {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.assignment_img {
+  width: 14.75rem;
+  height: 13.75rem;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.assignment_title {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--color-content-text);
+  margin: 0.625rem 0 0;
+  text-align: center;
+}
+
+.assignment_link {
+  font-weight: 300;
+  color: var(--color-content-text);
+  margin: 0.625rem 0 0;
+}
+
+.assignment_link:hover {
+  color: black;
+}
+
+.assignment_para {
+  font-weight: var(--app-font-weight-regular, 400);
+  color: var(--color-content-text);
+  margin: 0.625rem 0 0;
+}
