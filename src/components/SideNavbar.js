@@ -5,25 +5,25 @@ import {SiMicrosoftteams} from "react-icons/si"
 import {ImBooks} from "react-icons/im"
 import {IoMdApps} from "react-icons/io"
 import {BiHelpCircle, BiDotsHorizontalRounded} from "react-icons/bi"
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {Link} from 'react-router-dom';
 
 const SideNav = () => {
   return (
     <>
         <div className="sidebar col-4">
-          <a className="active" href="#home">
+          <Link className="active" to="/">
           <HiOutlineBell className='icons'/>Activity
-          </a>
-          <a href="#news"><BsChatDots className='icons'/>Chat</a>
-          <a href="#contact"><SiMicrosoftteams className='icons'/>Teams</a>
-          <a href="#about"><ImBooks className='icons'/>Assignment</a>
-          <a href="#about"><BsCalendar className='icons'/>Calendar</a>
-          <a href="#about"><BsFiles className='icons'/>Files</a>
+          </Link>
+          <Link to="/"><BsChatDots className='icons'/>Chat</Link>
+          <Link to="/"><SiMicrosoftteams className='icons'/>Teams</Link>
+          <Link to="/assignment"><ImBooks className='icons'/>Assignment</Link>
+          <Link to="/"><BsCalendar className='icons'/>Calendar</Link>
+          <Link to="/file"><BsFiles className='icons'/>Files</Link>
           <BiDotsHorizontalRounded className='icons' style={{marginLeft:'15px'}}/>
 
           <div className='bottom'>
-          <a href="#about"><IoMdApps className='icons'/>Apps</a>
-          <a href="#about"><BiHelpCircle className='icons'/>Help</a>
+          <Link to="/"><IoMdApps className='icons'/>Apps</Link>
+          <Link to="/"><BiHelpCircle className='icons'/>Help</Link>
           </div>
         </div>
     </>
