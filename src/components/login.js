@@ -5,7 +5,7 @@ const Login = () => {
   return (
     <div>
       <div className="login-nav col-12">
-        <div className="m-banner">
+        <div className="mm-banner">
           <p>
             The Together Mode and Large Gallery View features are rolling out to
             customers now.

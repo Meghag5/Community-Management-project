@@ -3,12 +3,13 @@ import {BsGrid3X3Gap} from "react-icons/bs"
 import {BiDotsHorizontal} from "react-icons/bi"
 import {BsPeopleCircle} from "react-icons/bs"
 import {IoIosSearch} from "react-icons/io"
+import {Link} from 'react-router-dom';
 
 const NavUp = () => {
   return (
     <>
       <div className="m-banner col-12">
-        <BsGrid3X3Gap className='app-icon'/>
+        <Link to='/appnav'><BsGrid3X3Gap className='app-icon'/></Link>
         <div className="nav-heading">Microsoft Teams</div>
         
         <form className="searchbar">

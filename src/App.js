@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Assignment from "./components/Assignment";
 import File from "./components/File";
 import Navmain from "./components/Navmain";
+import AppNav from "./components/AppNav";
 import { Switch, Route } from "react-router-dom";
 
 //<Login/>
@@ -15,9 +16,9 @@ function App() {
     <div className="App">
       <Navmain />
       <Switch>
-        <Route path="/assignment" component={Assignment} />
-        <Route path="/file" component={File} />
-        <Route path="/login" component={Login} />
+      <Route path="/appnav" component={AppNav} />
+      <Route path="/assignment" component={Assignment} />
+      <Route path="/file" component={File} />
       </Switch>
     </div>
   );

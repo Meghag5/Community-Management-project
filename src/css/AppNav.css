@@ -1,0 +1,72 @@
+.appnavbar {
+  background: #f1f1f1;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 26rem;
+  z-index: 2147483647;
+  box-shadow: 1.6rem 0 1.8rem -0.4;
+}
+
+.appnav-icon {
+  margin-top: 15px;
+  margin-left: 30px;
+  font-size: 26px;
+  color: rgb(85, 79, 79);
+}
+
+.office-365 {
+  margin-top: 15px;
+  margin-left: 200px;
+  color: #6264a7;
+  text-decoration: none;
+}
+
+.office-365:hover {
+  color: #6264a7;
+}
+
+.apptitle {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.33333;
+  font-weight: 400;
+  font-size: 1.8rem;
+  padding: 1rem 0 1rem 2.8rem;
+  color: #424242;
+}
+
+.appicons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appnav-icons1 {
+  color: #424242;
+  cursor: pointer;
+  padding-right: 15px;
+  justify-content: center;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.appnav-icons1 a {
+  color: #424242;
+}
+
+.appnav-icons1 a:hover {
+  background-color: white;
+  box-shadow: 1.6rem 0 1.8rem -0.4;
+  text-decoration: none;
+}
+
+.appnav-icons1 span:hover {
+  color: #6264a7;
+}
+
+.space {
+  margin-right: 10px;
+  font-size: 30px;
+}
