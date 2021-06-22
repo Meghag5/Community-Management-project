@@ -14,6 +14,7 @@ import { Switch, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
+      {/*<Login/>*/}
       <Navmain />
       <Switch>
       <Route path="/appnav" component={AppNav} />

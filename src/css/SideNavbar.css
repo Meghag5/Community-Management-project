@@ -6,6 +6,7 @@
   position: fixed;
   height: 100%;
   overflow: auto;
+  box-shadow: 1.6rem 0 1.8rem -0.4 #616161;
 }
 
 .sidebar a {
