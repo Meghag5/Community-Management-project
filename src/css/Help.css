@@ -1,0 +1,54 @@
+.help {
+  background: #fff;
+  border: 0;
+  border-radius: 0.3rem;
+  box-shadow: 0 0.2rem 1.6rem 0 rgb(37 36 35 / 30%);
+  font-size: 1.4rem;
+  padding: 0;
+  z-index: 10000000;
+  min-width: 19rem;
+  margin-top: 24.7rem;
+  max-width: 276px;
+  padding: 1px;
+  font-family: "Segoe UI", system-ui, "Apple Color Emoji", "Segoe UI Emoji",
+    sans-serif;
+  margin-left: 4.4rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-break: auto;
+  line-height: 1.4286;
+  text-align: left;
+  text-align: start;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  white-space: normal;
+  word-break: normal;
+  word-spacing: normal;
+  word-wrap: normal;
+}
+
+.help_list {
+  list-style-type: none;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.help_list button {
+  display: block;
+  height: 3.2rem;
+  width: 10rem;
+  padding: 0 2rem;
+  text-align: left;
+  text-decoration: none;
+  width: 100%;
+  background-color: white;
+  border: none;
+}
+
+.help_list button:hover {
+  width: 13rem;
+  background-color: #f1f1f1;
+  border: none;
+}

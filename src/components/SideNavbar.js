@@ -22,8 +22,8 @@ const SideNav = () => {
           <BiDotsHorizontalRounded className='icons' style={{marginLeft:'15px'}}/>
 
           <div className='bottom'>
-          <Link to="/"><IoMdApps className='icons'/>Apps</Link>
-          <Link to="/"><BiHelpCircle className='icons'/>Help</Link>
+          <Link to="/appsicon"><IoMdApps className='icons'/>Apps</Link>
+          <Link to="/help"><BiHelpCircle className='icons'/>Help</Link>
           </div>
         </div>
     </>

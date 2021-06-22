@@ -29,3 +29,8 @@
 .video-icon {
   margin-right: 10px;
 }
+
+.video_button:hover {
+  background-color: #b5b6db;
+  color: white;
+}

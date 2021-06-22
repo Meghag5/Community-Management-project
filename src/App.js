@@ -5,21 +5,34 @@ import Assignment from "./components/Assignment";
 import File from "./components/File";
 import Navmain from "./components/Navmain";
 import AppNav from "./components/AppNav";
+import Help from "./components/Help";
 import { Switch, Route } from "react-router-dom";
+import AppsIcon from "./components/AppsIcon";
 
 //<Login/>
 //<NavUp />
 //<SideNav />
 
+/*
 function App() {
   return (
     <div className="App">
-      {/*<Login/>*/}
+      <Login/>
+    </div>
+  );
+}
+*/
+
+function App() {
+  return (
+    <div className="App">
       <Navmain />
       <Switch>
-      <Route path="/appnav" component={AppNav} />
-      <Route path="/assignment" component={Assignment} />
-      <Route path="/file" component={File} />
+        <Route path="/help" component={Help} />
+        <Route path="/appsicon" component={AppsIcon} />
+        <Route path="/appnav" component={AppNav} />
+        <Route path="/assignment" component={Assignment} />
+        <Route path="/file" component={File} />
       </Switch>
     </div>
   );
