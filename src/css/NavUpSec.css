@@ -30,6 +30,13 @@
   margin-right: 10px;
 }
 
+.video_button {
+  box-shadow: 0 0.2rem 0.4rem -0.075rem rgb(0 0 0 / 10%);
+  background: #fff;
+  border: 0;
+  color: #252423;
+}
+
 .video_button:hover {
   background-color: #b5b6db;
   color: white;

@@ -1,7 +1,10 @@
 import "../css/login.css";
 import { Jumbotron } from "react-bootstrap";
+// It will hold the info about previous stage you were in
+import { useHistory } from "react-router-dom"
 
 const Login = () => {
+  let history = useHistory();
   return (
     <div>
       <div className="login-nav col-12">
@@ -26,7 +29,7 @@ const Login = () => {
               </p>
               
             <div className="link">
-                <button className='btn-1'>Sign in</button>
+                <button className='btn-1' onClick={() =>{ history.push('/'); }}>Sign in</button>
                 <button className='btn-2'>Download now</button>
             </div>
             </div>

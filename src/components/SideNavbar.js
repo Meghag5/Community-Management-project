@@ -17,7 +17,7 @@ const SideNav = () => {
           <Link to="/"><BsChatDots className='icons'/>Chat</Link>
           <Link to="/"><SiMicrosoftteams className='icons'/>Teams</Link>
           <Link to="/assignment"><ImBooks className='icons'/>Assignment</Link>
-          <Link to="/"><BsCalendar className='icons'/>Calendar</Link>
+          <Link to="/calendar"><BsCalendar className='icons'/>Calendar</Link>
           <Link to="/file"><BsFiles className='icons'/>Files</Link>
           <BiDotsHorizontalRounded className='icons' style={{marginLeft:'15px'}}/>
 
