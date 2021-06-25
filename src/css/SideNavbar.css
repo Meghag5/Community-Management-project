@@ -32,6 +32,10 @@
   color: #464775;
 }
 
+.icons:hover {
+  color: #616161;
+}
+
 .bottom {
   margin-top: 120px;
 }
