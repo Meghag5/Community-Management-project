@@ -5,6 +5,8 @@ import {BsPeopleCircle} from "react-icons/bs"
 import {IoIosSearch} from "react-icons/io"
 import {Link} from 'react-router-dom';
 
+/* This component contains above navbar that shows on the page */
+
 const NavUp = () => {
   return (
     <>

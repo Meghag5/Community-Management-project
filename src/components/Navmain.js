@@ -3,6 +3,8 @@ import NavUp from "./NavbarUp";
 import SideNav from "./SideNavbar";
 import NavUpSec from "./NavUpSec";
 
+/* This component is contains all the three navbars */
+
 const Navmain = () => {
   return (
     <div>

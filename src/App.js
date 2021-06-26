@@ -1,4 +1,4 @@
-import Login from "./components/login";
+//import Login from "./components/login";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Assignment from "./components/Assignment";
@@ -28,8 +28,9 @@ function App() {
   return (
     <div className="App">
       <Navmain />
+      {/* Here we are defining the path routes so we can connect our pages */}
       <Switch>
-        <Route path='/calendar' component={Calendar} />
+        <Route path="/calendar" component={Calendar} />
         <Route path="/help" component={Help} />
         <Route path="/appsicon" component={AppsIcon} />
         <Route path="/appnav" component={AppNav} />

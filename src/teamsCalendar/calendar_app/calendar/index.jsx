@@ -9,7 +9,6 @@ export default function Calendar({ value, onChange }) {
   // withe the help of seCalendar we can update the value
   const [calendar, setCalendar] = useState([]);
 
-
   // we want every time we want the day change therefore we initialize array with value
   useEffect(() => {
     setCalendar(buildCalendar(value));
@@ -60,14 +59,14 @@ export default function Calendar({ value, onChange }) {
     return moment(new Date()).isSame(day, "day");
   }
 
-  // if the particular day is selected then we will return the className mentioned else no className 
+  // if the particular day is selected then we will return the className mentioned else no className
   function dayStyles(day) {
     if (beforeToday(day)) return "before";
     if (isSelected(day)) return "selected";
     if (isToday(day)) return "today";
     return "";
   }
-
+  /*
   function currMonthName() {
     // this will return string representation of month object
     return value.format("MMMM");
@@ -77,7 +76,7 @@ export default function Calendar({ value, onChange }) {
     // this will return string representation of year object
     return value.format("YYYY");
   }
-
+*/
   return (
     <div className="calendar">
       <Header value={value} onChange={onChange} />
@@ -103,7 +102,6 @@ export default function Calendar({ value, onChange }) {
                   onChange(day);
                 }}
               >
-
                 {/* dayStyles will help to fade the previous days and bold comming days */}
                 <div className={dayStyles(day)}>
                   {day.format("D").toString()}

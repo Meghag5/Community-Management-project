@@ -3,6 +3,8 @@ import {FiSettings} from "react-icons/fi"
 import {RiFilter3Line} from "react-icons/ri"
 import {BsPeople} from 'react-icons/bs'
 
+/* This component is for navbar that will include video call button */
+
 const NavUpSec = () => {
     return (
         <>

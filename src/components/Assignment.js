@@ -1,6 +1,8 @@
 import "../css/Assignment.css";
 import React from "react";
 
+/* This component is for assignment page */
+
 const Assignment = () => {
   return (
     <div className="assignment">
@@ -18,7 +20,9 @@ const Assignment = () => {
       >
         <u>Teachers: start here.</u>
       </a>
-      <p className="assignment_para">Students: ask your teacher to create the class for you.</p>
+      <p className="assignment_para">
+        Students: ask your teacher to create the class for you.
+      </p>
     </div>
   );
 };

@@ -7,6 +7,8 @@ import {IoMdApps} from "react-icons/io"
 import {BiHelpCircle, BiDotsHorizontalRounded} from "react-icons/bi"
 import {Link} from 'react-router-dom';
 
+/* This component is for side navbar that includes all the activities  */
+
 const SideNav = () => {
   return (
     <>

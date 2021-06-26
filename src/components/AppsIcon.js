@@ -1,6 +1,8 @@
 import "../css/AppsIcon.css";
 import React from "react";
 
+/* This component is for apps page */
+
 const AppsIcon = () => {
   return (
     <>
