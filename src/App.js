@@ -1,4 +1,4 @@
-//import Login from "./components/login";
+import Login from "./components/login";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Assignment from "./components/Assignment";
@@ -27,6 +27,7 @@ function App() {
 */
 
 function App() {
+  if (!localStorage.getItem('clicked')) return <Login />;
   // if we are not logged in then we are going to return the login form
   if (!localStorage.getItem('email')) return <Loginform />;
   return (

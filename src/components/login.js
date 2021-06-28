@@ -1,12 +1,15 @@
 import "../css/login.css";
 import { Jumbotron } from "react-bootstrap";
+import { useState } from "react";
 // It will hold the info about previous stage you were in
-import { useHistory } from "react-router-dom";
+//import { useHistory } from "react-router-dom";
 
 /* This component is for login page */
 
 const Login = () => {
-  let history = useHistory();
+  const [clicked, setClicked] = useState(false);
+  localStorage.setItem('clicked', clicked);
+
   return (
     <div>
       <div className="login-nav col-12">
@@ -34,7 +37,8 @@ const Login = () => {
                 <button
                   className="btn-1"
                   onClick={() => {
-                    history.push("/");
+                    setClicked(true);
+                    window.location.reload();
                   }}
                 >
                   Sign in
