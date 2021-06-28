@@ -54,3 +54,12 @@ textarea {
   font-size: 26px;
   margin-right: 10px;
 }
+
+.home {
+  color: white;
+}
+
+.home:hover {
+  color: white;
+  box-shadow: 0 0.2rem 1.6rem 0 rgb(37 36 35 / 30%);
+}

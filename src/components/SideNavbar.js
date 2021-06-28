@@ -16,7 +16,7 @@ const SideNav = () => {
           <Link className="active" to="/">
           <HiOutlineBell className='icons'/>Activity
           </Link>
-          <Link to="/"><BsChatDots className='icons'/>Chat</Link>
+          <Link to="/chat"><BsChatDots className='icons'/>Chat</Link>
           <Link to="/"><SiMicrosoftteams className='icons'/>Teams</Link>
           <Link to="/assignment"><ImBooks className='icons'/>Assignment</Link>
           <Link to="/calendar"><BsCalendar className='icons'/>Calendar</Link>

@@ -9,6 +9,8 @@ import Help from "./components/Help";
 import { Switch, Route } from "react-router-dom";
 import AppsIcon from "./components/AppsIcon";
 import Calendar from "./teamsCalendar/calendar_app";
+import Chat from "./chat/src/App";
+import Loginform from './components/SignInSide';
 
 //<Login/>
 //<NavUp />
@@ -25,6 +27,8 @@ function App() {
 */
 
 function App() {
+  // if we are not logged in then we are going to return the login form
+  if (!localStorage.getItem('email')) return <Loginform />;
   return (
     <div className="App">
       <Navmain />
@@ -36,6 +40,7 @@ function App() {
         <Route path="/appnav" component={AppNav} />
         <Route path="/assignment" component={Assignment} />
         <Route path="/file" component={File} />
+        <Route path="/chat" component={Chat} />
       </Switch>
     </div>
   );

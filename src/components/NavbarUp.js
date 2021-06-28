@@ -1,7 +1,7 @@
 import "../css/NavUp.css";
 import {BsGrid3X3Gap} from "react-icons/bs"
 import {BiDotsHorizontal} from "react-icons/bi"
-import {BsPeopleCircle} from "react-icons/bs"
+import {AiFillHome} from "react-icons/ai"
 import {IoIosSearch} from "react-icons/io"
 import {Link} from 'react-router-dom';
 
@@ -26,7 +26,7 @@ const NavUp = () => {
         </form>
         <div className='row'>
         <BiDotsHorizontal className='dot-icon'/>
-        <BsPeopleCircle className='circle-icon'/>
+        <Link className='home' to='/'><AiFillHome className='circle-icon'/></Link>
         </div>
       </div>
     </>
