@@ -3,11 +3,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10rem;
+  text-align: center;
+  margin-top: 8rem;
+  margin-left: 4.8rem;
 }
-
+/*14.75rem, 13.75rem*/
 .assignment_img {
-  width: 14.75rem;
+  width: 100%;
   height: 13.75rem;
   background-position: 50%;
   background-size: cover;
@@ -15,6 +17,7 @@
 
 .assignment_title {
   font-weight: 600;
+  width: 80%;
   font-size: 1rem;
   color: var(--color-content-text);
   margin: 0.625rem 0 0;
@@ -32,6 +35,7 @@
 }
 
 .assignment_para {
+  width: 80%;
   font-weight: var(--app-font-weight-regular, 400);
   color: var(--color-content-text);
   margin: 0.625rem 0 0;

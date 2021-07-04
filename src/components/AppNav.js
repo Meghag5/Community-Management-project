@@ -37,6 +37,7 @@ const AppNav = () => {
             </span>
           </a>
         </div>
+        <div className='apps_nav'></div>
         <div className="apptitle">Apps</div>
         <div className="appnav-icons1 row col-12">
           <span className="appnav-icons2 col-6">

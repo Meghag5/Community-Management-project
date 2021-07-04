@@ -70,3 +70,23 @@
   margin-right: 10px;
   font-size: 30px;
 }
+
+@media screen and (max-width: 415px) {
+  .appnavbar {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 379px) {
+  .appnav-icons1 {
+    font-size: 13px;
+    margin-left: 0px;
+  }
+  .appnav-icons2 {
+    font-size: 13px;
+    margin-left: 00px;
+  }
+  .office-365 {
+    margin-left: 160px;
+  }
+}

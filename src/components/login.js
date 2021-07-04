@@ -8,7 +8,7 @@ import { useState } from "react";
 
 const Login = () => {
   const [clicked, setClicked] = useState(false);
-  localStorage.setItem('clicked', clicked);
+  localStorage.setItem("clicked", clicked);
 
   return (
     <div>
@@ -23,8 +23,8 @@ const Login = () => {
 
       <Jumbotron>
         <div className="container">
-          <div className="row">
-            <div className="heading col-5">
+          <div className='login_page'>
+            <div className="heading col-lg-5 col-md-5 col-sm-12">
               <h1 className="welcome">
                 <b>Welcome to Microsoft Teams</b>
               </h1>
@@ -47,10 +47,9 @@ const Login = () => {
               </div>
             </div>
 
-            <div className="col-7">
+            <div className="col-lg-7 col-md-7 col-sm-12">
               <img
-                width="770px"
-                height="550px"
+                className='pic'
                 alt="Device screen displays a team conversation in Microsoft Teams and the Manage team option selected from the More options menu."
                 title="Device screen displays a team conversation in Microsoft Teams and the Manage team option selected from the More options menu."
                 src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4H4kk?ver=fb18&amp;q=90&amp;m=2&amp;h=768&amp;w=1204&amp;b=%23FFFFFFFF&amp;aim=true"

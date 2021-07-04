@@ -15,7 +15,7 @@ const NavUp = () => {
         <Link to="/appnav">
           <BsGrid3X3Gap className="app-icon" />
         </Link>
-        <div className="nav-heading">Microsoft Teams</div>
+        <div className="nav-heading"><span className='previous'>Microsoft Teams</span><span className='after'>Teams</span></div>
 
         <form className="searchbar">
           <IoIosSearch className="search-icon" />
@@ -27,7 +27,7 @@ const NavUp = () => {
             aria-describedby="search-addon"
           />
         </form>
-        <div className="row">
+        <div className="home1 row">
           <BiDotsHorizontal className="dot-icon" />
           <Link className="home" to="/">
             <AiFillHome className="circle-icon" />

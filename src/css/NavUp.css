@@ -16,13 +16,17 @@
 
 .nav-heading {
   font-weight: 500;
-  font-size: 0.8rem;
-  line-height: 1.3333;
-  font-size: 1.8rem;
+  line-height: 1.333;
+  font-size: 180%;
   padding-left: 2rem;
 }
 
+.after {
+  display: none;
+}
+
 .searchbar {
+  margin-left: 3%;
   width: 50%;
 }
 
@@ -34,7 +38,7 @@
 }
 
 .search {
-  width: 600px;
+  width: 70%;
   height: 35px;
   background: rgba(255, 255, 255, 0.8);
 }
@@ -46,12 +50,14 @@ textarea {
 }
 
 .dot-icon {
-  font-size: 26px;
+  font-size: 150%;
+  margin-top: 0.4rem;
   margin-right: 25px;
 }
 
 .circle-icon {
-  font-size: 26px;
+  margin-top: 0.4rem;
+  font-size: 150%;
   margin-right: 25px;
 }
 
@@ -69,7 +75,7 @@ textarea {
   background-color: #fff;
   text-decoration: none;
   border: white;
-  font-size: 12px;
+  font-size: 100%;
   margin-right: 5px;
 }
 
@@ -77,4 +83,60 @@ textarea {
   background: rgba(255, 255, 255, 0.8);
   color: black;
   font-size: 13px;
+}
+
+@media screen and (max-width: 955px) {
+  .nav-heading {
+    font-size: 100%;
+  }
+  .dot-icon {
+    margin-top: 0px;
+    font-size: 20px;
+    margin-right: 0.6rem;
+  }
+  .circle-icon {
+    margin-top: 0px;
+    font-size: 20px;
+    margin-right: 0.6rem;
+  }
+  .search-icon {
+    display: none;
+  }
+  .logout {
+    font-size: 9px;
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 614px) {
+  .dot-icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .searchbar {
+    width: 30%;
+  }
+  .search {
+    width: 50%;
+  }
+  .home1 {
+    margin-right: 1%;
+  }
+  .circle-icon {
+    margin-right: 5px;
+  }
+  .logout {
+    padding: 1px 3px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .previous {
+    display: none;
+  }
+  .after {
+    display: inline-block;
+  }
 }

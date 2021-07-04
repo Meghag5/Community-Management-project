@@ -6,7 +6,7 @@ import React from "react";
 const AppsIcon = () => {
   return (
     <>
-      <div className="apps-page container row">
+      <div className="apps-page">
         <div className="col-12 col-md-8">
           <h2 className="apps_title">Get more done with apps!</h2>
           <p className="apps_para">

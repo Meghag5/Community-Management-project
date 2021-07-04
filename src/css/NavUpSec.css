@@ -40,4 +40,47 @@
 .video_button:hover {
   background-color: #b5b6db;
   color: white;
+  padding: 1px 4px;
+  border-radius: 5px;
+}
+
+.heading2 {
+  display: none;
+}
+
+@media screen and (max-width: 537px) {
+  .teams-title {
+    font-size: 1.4rem;
+  }
+  .video-icons {
+    margin-right: 10px;
+  }
+  .video-icon {
+    margin-right: 5px;
+  }
+  .video_button {
+    font-size: 13px;
+  }
+  .video-icon-layout {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 447px) {
+  .teams-title {
+    margin-right: 10%;
+    margin-top: 2rem;
+  }
+  .heading1 {
+    display: none;
+  }
+  .heading2 {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .video-icons {
+    display: none;
+  }
 }

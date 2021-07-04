@@ -5,11 +5,11 @@
   justify-content: center;
   margin-top: 4rem;
   text-align: center;
-  margin-left: 140px;
+  margin-left: 4rem;
 }
 
 .apps_page_img {
-  width: 16.75rem;
+  width: 20%;
   height: 10.75rem;
   background-position: 50%;
   background-size: cover;
@@ -18,7 +18,7 @@
 .apps_page_img2 {
   margin-left: -1rem;
   margin-top: 5rem;
-  width: 17.75rem;
+  width: 23%;
   height: 10.75rem;
   background-position: 50%;
   background-size: cover;
@@ -26,7 +26,7 @@
 
 .apps_title {
   font-weight: 600;
-  font-size: 2.6rem;
+  font-size: 200%;
   line-height: 1.33333;
   display: block;
   display: -webkit-box;
@@ -39,7 +39,7 @@
 
 .apps_para {
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 180%;
   line-height: 1.33333;
   display: block;
   display: -webkit-box;
@@ -50,4 +50,15 @@
   margin-top: 1.2rem;
   margin-bottom: 1.6rem;
   color: #242424;
+}
+
+@media screen and (max-width: 550px) {
+  .apps_page_img {
+    width: 35%;
+  }
+  .apps_page_img2 {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 35%;
+  }
 }
