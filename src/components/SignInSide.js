@@ -62,10 +62,10 @@ const useStyles = makeStyles((theme) => ({
 export default function SignInSide() {
   const classes = useStyles();
   // here we will need two fields for login username and password
-  const [email, setEmail] = useState("");
+  const [username, setusername] = useState("");
   const [password, setPassword] = useState("");
 
-  localStorage.setItem("email", email);
+  localStorage.setItem("username", username);
   localStorage.setItem("password", password);
 
   return (
@@ -86,12 +86,12 @@ export default function SignInSide() {
               margin="normal"
               required
               fullWidth
-              id="email"
-              label="Email Address"
-              name="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              autoComplete="email"
+              id="username"
+              label="User Name"
+              name="username"
+              value={username}
+              onChange={(e) => setusername(e.target.value)}
+              autoComplete="username"
               autoFocus
             />
             <TextField
@@ -116,6 +116,11 @@ export default function SignInSide() {
               fullWidth
               variant="contained"
               color="primary"
+              onClick={(e) => {
+                if(username === '' || password === ''){
+                  alert('Fill all the required credentials.');
+                }
+              }}
               className={classes.submit}
             >
               Sign In

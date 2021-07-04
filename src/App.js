@@ -30,7 +30,7 @@ function App() {
 function App() {
   if (!localStorage.getItem("clicked")) return <Login />;
   // if we are not logged in then we are going to return the login form
-  if (!localStorage.getItem("email")) return <Loginform />;
+  if (!localStorage.getItem("username")) return <Loginform />;
   return (
     <div className="App">
       <Navmain />

@@ -306,4 +306,7 @@
   .form {
     margin-left: 19%;
   }
+  .wrapper {
+    height: 85vh;
+  }
 }
