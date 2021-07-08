@@ -13,19 +13,6 @@ import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {"Copyright © "}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
-      </Link>{" "}
-      {new Date().getFullYear()}
-      {"."}
-    </Typography>
-  );
-}
-
 const useStyles = makeStyles((theme) => ({
   root: {
     height: "100vh",
@@ -61,11 +48,11 @@ const useStyles = makeStyles((theme) => ({
 
 export default function SignInSide() {
   const classes = useStyles();
-  // here we will need two fields for login username and password
-  const [username, setusername] = useState("");
+  // here we will need two fields for login email and password
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  localStorage.setItem("username", username);
+  localStorage.setItem("email", email);
   localStorage.setItem("password", password);
 
   return (
@@ -86,12 +73,12 @@ export default function SignInSide() {
               margin="normal"
               required
               fullWidth
-              id="username"
+              id="email"
               label="User Name"
-              name="username"
-              value={username}
-              onChange={(e) => setusername(e.target.value)}
-              autoComplete="username"
+              name="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              autoComplete="email"
               autoFocus
             />
             <TextField
@@ -117,7 +104,7 @@ export default function SignInSide() {
               variant="contained"
               color="primary"
               onClick={(e) => {
-                if(username === '' || password === ''){
+                if(email === '' || password === ''){
                   alert('Fill all the required credentials.');
                 }
               }}
@@ -138,7 +125,6 @@ export default function SignInSide() {
               </Grid>
             </Grid>
             <Box mt={5}>
-              <Copyright />
             </Box>
           </form>
         </div>

@@ -13,7 +13,7 @@ const SideNav = () => {
   return (
     <>
         <div className="sidebar col-4">
-          <Link className="active" to="/">
+          <Link className="active" to="/activity">
           <HiOutlineBell className='icons'/>Activity
           </Link>
           <Link className='links' to="/chat"><BsChatDots className='icons'/>Chat</Link>

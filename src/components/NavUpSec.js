@@ -14,7 +14,7 @@ const NavUpSec = () => {
         <div className='video-icon-layout '>
         <RiFilter3Line className='video-icons' />
         <FiSettings className='video-icons' />
-        <a href='https://video-app-mg.netlify.app/'><button className='video_button'><BsPeople className='video-icon' /><span className='heading1'>Join or create team</span><span className='heading2'>join team</span></button></a>
+        <a href='https://video-call-chat-mg-app.netlify.app/'><button className='video_button'><BsPeople className='video-icon' /><span className='heading1'>Join or create team</span><span className='heading2'>join team</span></button></a>
         </div>
       </div>
     </>

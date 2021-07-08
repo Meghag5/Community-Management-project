@@ -18,7 +18,7 @@ const NavUp = () => {
         <div className="nav-heading"><span className='previous'>Microsoft Teams</span><span className='after'>Teams</span></div>
 
         <form className="searchbar">
-          <IoIosSearch className="search-icon" />
+          {/*<IoIosSearch className="search-icon" />*/}
           <input
             type="search"
             className="search"
@@ -29,7 +29,7 @@ const NavUp = () => {
         </form>
         <div className="home1 row">
           <BiDotsHorizontal className="dot-icon" />
-          <Link className="home" to="/">
+          <Link className="home" to="/activity">
             <AiFillHome className="circle-icon" />
           </Link>
           <Button 
