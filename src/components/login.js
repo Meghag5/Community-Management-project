@@ -23,7 +23,7 @@ const Login = () => {
 
       <Jumbotron>
         <div className="container">
-          <div className='login_page'>
+          <div className="login_page">
             <div className="heading col-lg-5 col-md-5 col-sm-12">
               <h1 className="welcome">
                 <b>Welcome to Microsoft Teams</b>
@@ -43,13 +43,19 @@ const Login = () => {
                 >
                   Sign in
                 </button>
-                <button className="btn-2">Download now</button>
+                <a
+                  href="https://www.microsoft.com/en-in/microsoft-teams/download-app#desktopAppDownloadregion"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn-2">Download now</button>
+                </a>
               </div>
             </div>
 
             <div className="col-lg-7 col-md-7 col-sm-12">
               <img
-                className='pic'
+                className="pic"
                 alt="Device screen displays a team conversation in Microsoft Teams and the Manage team option selected from the More options menu."
                 title="Device screen displays a team conversation in Microsoft Teams and the Manage team option selected from the More options menu."
                 src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4H4kk?ver=fb18&amp;q=90&amp;m=2&amp;h=768&amp;w=1204&amp;b=%23FFFFFFFF&amp;aim=true"

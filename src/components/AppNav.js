@@ -27,6 +27,8 @@ const AppNav = () => {
           <a
             className="office-365"
             href="https://www.office.com?auth=2&amp;home=1&amp;from=ShellLogo&amp;username=megha.35414802719@cse.mait.ac.in&amp;login_hint=megha.35414802719@cse.mait.ac.in"
+            target="_blank"
+            rel="noreferrer"
           >
             <span
               className="office-365-label"
@@ -37,11 +39,15 @@ const AppNav = () => {
             </span>
           </a>
         </div>
-        <div className='apps_nav'></div>
+        <div className="apps_nav"></div>
         <div className="apptitle">Apps</div>
         <div className="appnav-icons1 row col-12">
           <span className="appnav-icons2 col-6">
-            <a href="https://outlook.office.com/mail/?realm=cse.mait.ac.in&exsvurl=1&ll-cc=2057&modurl=0&JitExp=1&url=%2fowa%2f%3frealm%253dcse.mait.ac.in%2526exsvurl%253d1%2526ll-cc%253d2057%2526modurl%253d0">
+            <a
+              href="https://outlook.office.com/mail/?realm=cse.mait.ac.in&exsvurl=1&ll-cc=2057&modurl=0&JitExp=1&url=%2fowa%2f%3frealm%253dcse.mait.ac.in%2526exsvurl%253d1%2526ll-cc%253d2057%2526modurl%253d0"
+              target="_blank"
+              rel="noreferrer"
+            >
               <SiMicrosoftoutlook
                 className="space"
                 style={{ fill: "rgb(0, 120, 212)" }}
@@ -50,7 +56,11 @@ const AppNav = () => {
             </a>
           </span>
           <span className="appnav-icons2 col-6">
-            <a href="https://maitadmin-my.sharepoint.com/personal/megha_35414802719_cse_mait_ac_in/_layouts/15/onedrive.aspx">
+            <a
+              href="https://maitadmin-my.sharepoint.com/personal/megha_35414802719_cse_mait_ac_in/_layouts/15/onedrive.aspx"
+              target="_blank"
+              rel="noreferrer"
+            >
               <SiMicrosoftonedrive
                 className="space"
                 style={{ fill: "rgb(40, 168, 234)" }}
@@ -61,7 +71,11 @@ const AppNav = () => {
         </div>
         <div className="appnav-icons1 row col-12">
           <span className="appnav-icons2 col-6">
-            <a href="https://www.office.com/launch/word?auth=2">
+            <a
+              href="https://www.office.com/launch/word?auth=2"
+              target="_blank"
+              rel="noreferrer"
+            >
               <SiMicrosoftword
                 className="space"
                 style={{ fill: "rgb(43, 124, 211)" }}
@@ -70,7 +84,11 @@ const AppNav = () => {
             </a>
           </span>
           <span className="appnav-icons2 col-6">
-            <a href="https://www.office.com/launch/excel?auth=2">
+            <a
+              href="https://www.office.com/launch/excel?auth=2"
+              target="_blank"
+              rel="noreferrer"
+            >
               <SiMicrosoftexcel
                 className="space"
                 style={{ fill: "rgb(16, 124, 65)" }}
@@ -81,7 +99,11 @@ const AppNav = () => {
         </div>
         <div className="appnav-icons1 row col-12">
           <span className="appnav-icons2 col-6">
-            <a href="https://www.office.com/launch/powerpoint?auth=2">
+            <a
+              href="https://www.office.com/launch/powerpoint?auth=2"
+              target="_blank"
+              rel="noreferrer"
+            >
               <SiMicrosoftpowerpoint
                 className="space"
                 style={{ fill: "rgb(196, 62, 28)" }}
@@ -90,7 +112,11 @@ const AppNav = () => {
             </a>
           </span>
           <span className="appnav-icons2 col-6">
-            <a href="https://www.office.com/launch/onenote?auth=2">
+            <a
+              href="https://www.office.com/launch/onenote?auth=2"
+              target="_blank"
+              rel="noreferrer"
+            >
               <SiMicrosoftonenote
                 className="space"
                 style={{ fill: "rgb(147, 50, 191)" }}
@@ -101,7 +127,11 @@ const AppNav = () => {
         </div>
         <div className="appnav-icons1 row col-12">
           <span className="appnav-icons2 col-6">
-            <a href="https://maitadmin.sharepoint.com/_layouts/15/sharepoint.aspx?">
+            <a
+              href="https://maitadmin.sharepoint.com/_layouts/15/sharepoint.aspx?"
+              target="_blank"
+              rel="noreferrer"
+            >
               <SiMicrosoftsharepoint
                 className="space"
                 style={{ fill: "rgb(26, 155, 161)" }}
@@ -110,7 +140,11 @@ const AppNav = () => {
             </a>
           </span>
           <span className="appnav-icons2 col-6">
-            <a href="https://teams.microsoft.com/_#/?lm=deeplink&lmsrc=officeWaffle&login_hint_safe=megha.35414802719@cse.mait.ac.in">
+            <a
+              href="https://teams.microsoft.com/_#/?lm=deeplink&lmsrc=officeWaffle&login_hint_safe=megha.35414802719@cse.mait.ac.in"
+              target="_blank"
+              rel="noreferrer"
+            >
               <SiMicrosoftteams
                 className="space"
                 style={{ fill: "rgb(75, 83, 188)" }}
