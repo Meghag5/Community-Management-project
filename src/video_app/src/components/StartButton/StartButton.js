@@ -10,17 +10,17 @@ import { BsPeople } from 'react-icons/bs';
 export default function StartButton(props) {
   return (
     <>
-      <div className="navsec">
-        <h1 className="teams-title">Welcome To Teams</h1>
+      <div className="navsecs">
+        <h1 className="teams-titles">Welcome To Teams</h1>
         </div>
-        <div className="video-icon-layout ">
+        <div className="video-icon-layouts ">
 
           <button
-            className="video_button"
+            className="video_buttons"
             disabled={props.disabled}
             onClick={props.onClick}
           >
-            <BsPeople className="video-icon" />
+            <BsPeople className="video-icons" />
             Start the <b>meeting</b>
           </button>
       </div>

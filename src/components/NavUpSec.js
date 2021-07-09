@@ -2,6 +2,7 @@ import "../css/NavUpSec.css";
 import { FiSettings } from "react-icons/fi";
 import { RiFilter3Line } from "react-icons/ri";
 import { BsPeople } from "react-icons/bs";
+import {Link} from "react-router-dom";
 
 /* This component is for navbar that will include video call button */
 /*https://video-chat-app-mg.netlify.app/*/
@@ -14,8 +15,8 @@ const NavUpSec = () => {
         <div className="video-icon-layout ">
           <RiFilter3Line className="video-icons" />
           <FiSettings className="video-icons" />
-          <a
-            href="https://video-call-chat-mg-app.netlify.app/"
+          <Link 
+            to="/video"
             target="_blank"
             rel="noreferrer"
           >
@@ -24,7 +25,7 @@ const NavUpSec = () => {
               <span className="heading1">Join or create team</span>
               <span className="heading2">join team</span>
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </>

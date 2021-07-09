@@ -1,4 +1,4 @@
-.navsec {
+.navsecs {
   background: #464775;
   height: 6rem;
   display: flex;
@@ -9,13 +9,13 @@
   text-align: center;
 }
 
-.teams-title {
+.teams-titles {
   color: white;
   font-size: 5rem;
-  font-family: 'ubuntu';
+  font-family: "ubuntu";
   text-transform: uppercase;
   font-weight: 700;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   background: linear-gradient(to right, #fff 10%, #8a8a8a 50%, black 60%);
   background-size: auto auto;
   background-clip: border-box;
@@ -30,13 +30,13 @@
   text-align: center;
 }
 
-.video-icon-layout {
+.video-icon-layouts {
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-.video_button {
+.video_buttons {
   box-shadow: 0 0.2rem 0.4rem -0.075rem rgb(0 0 0 / 10%);
   background: #fff;
   border: 0;
@@ -48,7 +48,7 @@
   cursor: pointer;
 }
 
-.video_button:hover {
+.video_buttons:hover {
   background: linear-gradient(
     to right,
     #b5b6db 10%,
@@ -58,31 +58,31 @@
   color: white;
 }
 
-.video-icon {
+.video-icons {
   margin-right: 10px;
 }
 
 @media screen and (max-width: 950px) {
-  .teams-title {
+  .teams-titles {
     font-size: 4rem;
   }
 }
 
 @media screen and (max-width: 750px) {
-  .teams-title {
+  .teams-titles {
     font-size: 3rem;
   }
-  .video_button {
+  .video_buttons {
     font-size: 2rem;
     padding: 1rem 1rem;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .teams-title {
+  .teams-titles {
     font-size: 2rem;
   }
-  .video_button {
+  .video_buttons {
     font-size: 1.5rem;
     padding: 1rem 1rem;
   }
