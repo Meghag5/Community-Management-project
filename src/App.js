@@ -6,12 +6,13 @@ import File from "./components/File";
 import Navmain from "./components/Navmain";
 import AppNav from "./components/AppNav";
 import Help from "./components/Help";
-import { Switch, Route, Redirect} from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import AppsIcon from "./components/AppsIcon";
 import Calendar from "./teamsCalendar/calendar_app";
 import Chat from "./chat/src/App";
 import Loginform from "./components/SignInSide";
-import Activity from './components/Activity';
+import Activity from "./components/Activity";
+import Video from "./video_app/src/components/App/App";
 
 function App() {
   if (!localStorage.getItem("clicked")) return <Login />;
@@ -22,6 +23,7 @@ function App() {
       <Navmain />
       {/* Here we are defining the path routes so we can connect our pages */}
       <Switch>
+        <Route path="/video" component={Video} />
         <Route path="/activity" component={Activity} />
         <Route path="/calendar" component={Calendar} />
         <Route path="/help" component={Help} />
@@ -31,7 +33,7 @@ function App() {
         <Route path="/file" component={File} />
         <Route path="/chat" component={Chat} />
         {/* activity is opened when there is no path defined */}
-        <Redirect to='/activity'/>
+        <Redirect to="/activity" />
       </Switch>
     </div>
   );
