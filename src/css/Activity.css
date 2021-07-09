@@ -33,8 +33,14 @@
   transition: transform 2s;
 }
 
+/*
 .activity_heading:hover {
   transform: rotateY(360deg);
+}
+*/
+
+.symbol {
+  margin-top: 40px;
 }
 
 @media screen and (max-width: 650px) {
