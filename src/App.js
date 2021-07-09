@@ -12,7 +12,7 @@ import Calendar from "./teamsCalendar/calendar_app";
 import Chat from "./chat/src/App";
 import Loginform from "./components/SignInSide";
 import Activity from "./components/Activity";
-import Video from "./video_app/src/components/App/App";
+//import Video from "./video_app/src/components/App/App";
 
 function App() {
   if (!localStorage.getItem("clicked")) return <Login />;
@@ -23,7 +23,7 @@ function App() {
       <Navmain />
       {/* Here we are defining the path routes so we can connect our pages */}
       <Switch>
-        <Route path="/video" component={Video} />
+        {/*<Route path="/video" component={Video} />*/}
         <Route path="/activity" component={Activity} />
         <Route path="/calendar" component={Calendar} />
         <Route path="/help" component={Help} />
