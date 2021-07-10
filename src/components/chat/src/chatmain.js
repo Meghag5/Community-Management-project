@@ -2,7 +2,7 @@ import { ChatEngine } from 'react-chat-engine';
 
 import ChatFeed from './components/ChatFeed';
 import LoginForm from './components/LoginForm';
-import './App.css';
+import './chatmain.css';
 
 const App = () => {
   // if we are not logged in then we are going to return the login form

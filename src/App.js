@@ -8,11 +8,11 @@ import AppNav from "./components/AppNav";
 import Help from "./components/Help";
 import { Switch, Route, Redirect } from "react-router-dom";
 import AppsIcon from "./components/AppsIcon";
-import Calendar from "./teamsCalendar/calendar_app";
-import Chat from "./chat/src/App";
+import Calendar from "./components/teamsCalendar/calendar_app/calendarmain";
+import Chat from "./components/chat/src/chatmain";
 import Loginform from "./components/SignInSide";
 import Activity from "./components/Activity";
-import Video from "./video_app/src/components/App/App";
+import Video from "./components/video_app/src/components/App/videomain";
 
 function App() {
   if (!localStorage.getItem("clicked")) return <Login />;
