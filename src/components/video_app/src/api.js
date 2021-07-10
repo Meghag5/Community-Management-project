@@ -1,3 +1,4 @@
+/* eslint-disable */
 const newRoomEndpoint = `${window.location.origin}/api/rooms`;
 
 /**

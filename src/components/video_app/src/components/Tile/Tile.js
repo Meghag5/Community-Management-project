@@ -1,6 +1,8 @@
 import React, { useEffect, useMemo, useRef } from 'react';
 import './Tile.css';
 
+/* eslint-disable */
+
 function getTrackUnavailableMessage(kind, trackState) {
   if (!trackState) return;
   switch (trackState.state) {
