@@ -14,7 +14,7 @@ const Modal = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const authObject = { 'Project-ID': 'cddf3fa0-3a85-4556-9226-ba46e1714bfd', 'User-Name': username, 'User-Secret': password };
+    const authObject = { 'Project-ID': projectID, 'User-Name': username, 'User-Secret': password };
 
     try {
       // we are making request to inner versions of chat apis
