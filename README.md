@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# MICROSOFT TEAMS CLONE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a href="https://imgflip.com/gif/5fzb7q"><img src="https://imgflip.com/gif/5fzb7q" title="made at imgflip.com"/></a>
 
-## Available Scripts
+## ❓ Problem Statement
 
-In the project directory, you can run:
+- Build a Microsoft Teams clone.
 
-### `npm start`
+## [VIEW LIVE DEMO](https://my-teams-app.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Note** : Chat can only be used by the **users** Meghag5, prachi12, penguin and **password** 123123.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🚧 Technology Stack
 
-### `npm test`
+- **Server Enviornment** - NodeJS
+- **Frontend** - ReactJS, HTML, CSS, Javascript
+- **SMS sending** - chatengine.io
+- **Video calling** - daily.co
+- **Deployment** - Netlify
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⬇️ Installation
 
-### `npm run build`
+- First, fork this repository 🍴 and follow the given instructions:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+# clone the repository to your local machine
+$ git clone `git clone https://github.com/<YOUR-GITHUB-USERNAME>/Microsoft-cloning.git`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# navigate to the project's directory and install all the relevant dev-dependencies
+$ cd Microsoft-cloning && npm intsall
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Start application
+$ npm start
+```
 
-### `npm run eject`
+## Workflow
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Login
+- Signin Form
+- Homepage
+  I have added easy to comprehend icons on the homepage.
+- Video
+- AppsNav
+- Activity
+- Chat
+- Assignment
+- Calendar
+- Files
+- Apps
+- Help
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### For SignIn Page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Click on sign up page to register yourself to navigate to login page.
+2. If want to download teams app click on Download Now.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### For SignIn Form
 
-## Learn More
+1. Enter any username.
+2. Enter any password.
+3. Click on SIGN IN to navigate to homepage.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### For Chat
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Enter username - Meghag5, prachi12, penguin
+2. Enter password - 123123 for all username .
+3. Click on Start Chatting to navigate to chat page.
 
-### Code Splitting
+#### How Chat Application Works
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This chat feature helps us to add as many people we want.
 
-### Analyzing the Bundle Size
+- Plus icon on top left is to create a new group.
+- We can share text and images and can also download the images.
+- If we are the creater of the group then on the right inside the options we have Delete option to delete the group.
+- We can also add people in the group by clicking on people option on the right side list of people will be shown.
+- We can also see all the photos that we have sent in the chat group by clicking on photos option on the right side.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### How Video Application Works
 
-### Making a Progressive Web App
+This video feature helps us to add as many people we want.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- By clicking on Join or create team on top-left corner we can start the video call.
+- Then click on Start the meeting for starting video.
+- A link will be displayes that we can shared with others for vodeo chatting.
+- In the video control panel there is video on/off button, mute/unmute option, sharing screen, chat and exit option.
