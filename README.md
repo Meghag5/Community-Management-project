@@ -1,6 +1,6 @@
 # MICROSOFT TEAMS CLONE
 
-<a href="https://imgflip.com/gif/5fzb7q"><img src="https://imgflip.com/gif/5fzb7q" title="made at imgflip.com"/></a>
+![Alt Text](https://media.giphy.com/media/eNxQ3VOruZljtvhQM5/giphy.gif)
 
 ## ❓ Problem Statement
 
@@ -84,3 +84,20 @@ This video feature helps us to add as many people we want.
 - Then click on Start the meeting for starting video.
 - A link will be displayes that we can shared with others for vodeo chatting.
 - In the video control panel there is video on/off button, mute/unmute option, sharing screen, chat and exit option.
+
+### Future Scope
+
+- Organize online classes and meeting.
+- Able to send and receive messages.
+- Able to download and send images from the chat.
+- Able to access calendar.
+
+### Additional Features to be added after deadline
+
+- Add a Create Team option and able to add users to it.
+- Connect this project with the database so that only authorized Microsoft Teams user can sign in.
+- Option to remove or allow a user in the meeting.
+
+### Pending Work
+
+- Able to see messages before and after video call that are sent during the video call.
