@@ -2,7 +2,6 @@ import "../css/NavUp.css";
 import { BsGrid3X3Gap } from "react-icons/bs";
 import { BiDotsHorizontal } from "react-icons/bi";
 import { AiFillHome } from "react-icons/ai";
-import { IoIosSearch } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 
