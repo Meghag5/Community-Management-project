@@ -6,7 +6,7 @@
 
 - Build a Microsoft Teams clone.
 
-## [VIEW LIVE DEMO](https://my-teams-app.netlify.app/)
+## [VIEW LIVE DEMO](https://microsoft-teams-clone-mg.netlify.app)
 
 **Note** : Chat can only be used by the **users** Meghag5, prachi12, penguin and **password** 123123.
 
