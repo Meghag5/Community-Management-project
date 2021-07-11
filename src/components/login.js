@@ -7,7 +7,7 @@ import { useState } from "react";
 /* This component is for login page */
 
 const Login = () => {
-  const [clicked, setClicked] = useState(false);
+  const [clicked, setClicked] = useState('');
   localStorage.setItem("clicked", clicked);
 
   return (
