@@ -40,7 +40,7 @@ $ npm start
 - Login
 - Signin Form
 - Homepage
-  I have added easy to comprehend icons on the homepage.
+- I have added easy to comprehend icons on the homepage.
 - Video
 - AppsNav
 - Activity
