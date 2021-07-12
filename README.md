@@ -91,6 +91,8 @@ This video feature helps us to add as many people we want.
 - Able to send and receive messages.
 - Able to download and send images from the chat.
 - Able to access calendar.
+- Able to make groups and delete groups.
+- Able to add people in the group.
 
 ### Additional Features to be added after deadline
 
