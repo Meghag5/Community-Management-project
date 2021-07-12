@@ -8,6 +8,8 @@
 
 ## [VIEW LIVE DEMO](https://microsoft-teams-clone-mg.netlify.app/)
 
+## [OPEN DOCUMENTATION](https://docs.google.com/document/d/1z6cTtWy6o99kh_bSTdkjPG-vms-0zNuCvoYntU0Eoo8/edit?usp=sharing)
+
 **Note** : Chat can only be used by the **users** Meghag5, prachi12, penguin and **password** 123123.
 
 ## 🚧 Technology Stack
