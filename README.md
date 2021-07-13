@@ -12,6 +12,8 @@
 
 **Note** : Chat can only be used by the **users** Meghag5, prachi12, penguin and **password** 123123.
 
+**Note** : My website is fully responsive for all screen sizes.
+
 ## 🚧 Technology Stack
 
 - **Server Enviornment** - NodeJS
