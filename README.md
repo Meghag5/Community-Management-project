@@ -1,4 +1,4 @@
-# MICROSOFT TEAMS CLONE
+# COMMUNITY MANAGEMENT PROJECT
 
 ![Alt Text](https://media.giphy.com/media/eNxQ3VOruZljtvhQM5/giphy.gif)
 
